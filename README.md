@@ -51,10 +51,9 @@ arduino/TAS_MAX6675_Logger/TAS_MAX6675_Logger.ino
 ---
 
 ## 🛠 回路図（KiCad 8）
-
-- KiCad フォルダに回路図（PDF/SVG）を含む  
-- `TAS_schematic.pdf`  
-- `TAS.kicad_pcb`
+<p align="center">
+  <img src="./kicad/TAS/TAS_schematic_trimmed.svg" width="400px" alt="LuLo Arduino schematic">
+</p>
 
 ---
 
