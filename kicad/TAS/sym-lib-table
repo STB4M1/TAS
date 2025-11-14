@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MAX6675_Module")(type "KiCad")(uri "C:/Users/mitsu/Documents/My_apps/TAS/kicad/symbols/MAX6675_Module.kicad_sym")(options "")(descr ""))
+)

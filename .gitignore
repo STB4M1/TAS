@@ -1,0 +1,105 @@
+#############################################
+# LuLo Project .gitignore
+# for Qt + Arduino + KiCad
+#############################################
+
+# =========================
+# 🔷 Qt / C++ build files
+# =========================
+build-*/
+*.pro.user
+*.qmake.stash
+*.obj
+*.o
+*.dll
+*.exe
+*.manifest
+*.pdb
+*.idb
+*.ilk
+*.ipch
+*.ncb
+*.suo
+*.vcxproj.user
+*.qrc.dep
+*.qm
+
+# qmake, moc, rcc, uic generated files
+moc_*
+qrc_*
+ui_*
+
+# =========================
+# 🧰 Arduino build artifacts
+# =========================
+*.hex
+*.elf
+*.eep
+*.bin
+*.cpp.d
+*.ino.cpp
+
+# Arduino IDE / PlatformIO cache
+.pio
+.arduino-build
+.arduino-ci
+*.arduino-build*
+
+# =========================
+# ⚙️ KiCad files
+# =========================
+# Backups
+*-backups/
+*.zip
+*.bak
+*.tmp
+*.autosave
+*.kicad_prl
+*.kicad_pro-bak
+fp-info-cache
+sym-lib-table-bak
+
+# Cache / temp
+__pycache__/
+*.log
+*.xml
+*.net
+*.cmp
+*.dcm
+*.cache.lib
+
+# Do NOT ignore these (keep!)
+# !*.kicad_pro
+# !*.kicad_sch
+# !*.kicad_pcb
+# !*.pdf
+# !*.svg
+# !fp-lib-table
+# !sym-lib-table
+
+# =========================
+# 🖼 OS / Editor files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VSCode / QtCreator / JetBrains
+.vscode/
+.idea/
+*.autosave
+
+# =========================
+# 🧪 Miscellaneous
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
