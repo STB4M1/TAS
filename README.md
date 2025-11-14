@@ -52,7 +52,7 @@ arduino/TAS_MAX6675_Logger/TAS_MAX6675_Logger.ino
 
 ## 🛠 回路図（KiCad 8）
 <p align="center">
-  <img src="./kicad/TAS/TAS_schematic_trimmed.svg" width="400px" alt="LuLo Arduino schematic">
+  <img src="./kicad/TAS/TAS_schematic_trimmed.svg" width="600px" alt="LuLo Arduino schematic">
 </p>
 
 ---
